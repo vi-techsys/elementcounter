@@ -1,0 +1,117 @@
+            input{
+                display: block;
+                margin-bottom: 5px;
+                width: 90%;
+                border: 1px solid red;
+                height: 30px;
+            }
+            label{
+                color:blue;
+            }
+            .main{
+                margin: 10 10 10 10;
+                width: 100%;
+            }
+            .form{
+                margin: auto;
+                max-width: 420px;
+                border: 1px solid red;
+                border-radius: 5px;
+                padding: 20px;
+            }
+            h2{
+                text-align: center;
+                color: red;
+            }
+            #loading{
+               text-align: center;
+               display: none;
+            }
+            #loading img{
+                width:30px;
+            }
+            #result{
+                display: none;
+            }
+            #result label{
+                display: block;
+            }
+            #result span{
+                color:red;
+                font-weight: bold;
+            }
+        #resulthead{
+            text-align: center;
+            color:red;
+        }
+        .statistics{
+            float: right;
+        }
+        .button{
+            padding: 5px 8px;
+            border: none;
+            background-color: red;
+            color:white;
+            cursor: pointer;
+            border-radius: 5px;
+            border:1px solid red;
+            transition: all 0.3s;
+        }
+        .button:hover{
+            background-color: white;
+            color:red;
+        }
+        .link{
+            padding: 3px 8px;
+            border: none;
+            background-color: blue;
+            color:white;
+            cursor: pointer;
+            border-radius: 5px;
+            border:1px solid blue;
+            transition: all 0.3s;
+        }
+        .link:hover{
+            background-color: white;
+            color:blue;
+        }
+        a{
+            text-decoration: none;
+            font-weight: bold;
+            color:blue;
+        }
+        table{
+            margin: auto;
+            width: 80%;
+            border-collapse: collapse;
+        }
+        th,td{
+            padding: 5px;
+        }
+        td{
+            color:blue;
+            font-weight: bold;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        th{
+            border: 2px solid white;
+        }
+        table, td {
+            border: 2px solid red;
+          }
+          thead{
+            background-color: red;
+            color:white;
+          }
+          tr:nth-child(even){
+            background-color: rgb(252, 152, 152);
+          }
+          td:nth-child(3){
+            text-align: center;
+          }
+          td:nth-child(4){
+            text-align: center;
+          }
+          td:nth-child(5){
+            text-align: center;
+          }
